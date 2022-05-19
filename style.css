@@ -1,0 +1,90 @@
+
+/* Immagine di sfondo */
+body {
+  background-image: url("Immagini/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+/* Contenitore di tutti gli elementi del sito */
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 80px;
+  }
+
+/* Testata */
+header{
+  text-align: center;
+}
+
+img{
+    width: 250px;
+}
+
+h1{
+    color: #00e639;
+    margin: 10px;
+  }
+
+/* Menù di navigazione */
+nav{
+    background-color: #00e639;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+/* Corpo del sito */
+main{
+  color: white;
+}
+
+h2{
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+h3{
+  margin: 2px;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+/* Freccia prima di h3 */
+h3:before{
+  content: "\2910";
+}
+
+h4{
+  margin: 2px;
+  font-weight: lighter;
+}
+
+/* Struttura dei Rettangoli */
+div p{
+  margin: 2px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+/* Rettangolo Arancione */
+#arancione{
+  background-color: orange;
+  width: 35%;
+}
+
+/* Rettangolo Verde */
+#verde{
+  background-color: green;
+  width: 60%;
+}
+
+/* Rettangolo Rosso */
+#rosso{
+  background-color: red;
+  width: 14%;
+}
